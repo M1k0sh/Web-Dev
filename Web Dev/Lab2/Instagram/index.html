@@ -1,58 +1,89 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="main">
-        <div class="phone_main">
-            <img class="phone" src="..//..//..//Downloads/phone.png">
-        </div>
-        <div class="log">
-            <img class="inst_logo" src="..//..//..//Downloads/Instagram_logo.svg.png">
-            <input type="text" class="login" placeholder="Телефон, имя пользователя или эл. адрес">
-            <input type="password" class="pass" placeholder="Пароль">
-            <input type="submit" class="sub" value="Войти">
-            <div class="line">
-                <div class="line1"></div>
-                <div class="or"><p>ИЛИ</p></div>
-                <div class="line2"></div>
 
-            </div>
-            <a href="#"><img src="..//..//..//Downloads/facebook.png" class="facebook">  Войти через Facebook</a>
-            <div class="forget"><a href="#">Забыли пароль?</a></div>
-            <div class="down">Установите приложение.</div>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Instagram</title>
+
+</head>
+
+<body>
+    
+    <header class="top">
+        <div class="left">
+            <img class="instaback" src="instaback.png" alt="instgram background">
+            <img class="instaone" src="instaone.png" alt="first img">
         </div>
-    </div>
-    <div class="square1">
-    </div>
-    <div class="notacc"><span>У вас ещё нет аккаунта?</span>
-        <div class="register"><a href="#">Зарегистрироваться</a></div>
-    </div>
-    <div class="logo">
-            <img src="..//..//..//Downloads/microsoftlogo.png" class="microsoft">
-    </div>
-    <div class="back">
-        <a href="#">Meta</a>
-        <a href="#">Информация</a>
-        <a href="#">Блог</a>
-        <a href="#">Вакансии</a>
-        <a href="#">Помощь</a>
-        <a href="#">API</a>
-        <a href="#">Конфидинциальность</a>
-        <a href="#">Условия</a>
-        <a href="#">Популярные аккаунты</a>
-        <a href="#">Места</a>
-        <a href="#">Instagram Lite</a>
-        <a href="#">Загрузка контактов и лица, не являющиеся пользователями</a>
-    </div>
-    <div class="back1">
-        <a href="#">Руский</a>
-        <span>© 2023 Instagram from Meta</span>
-    </div>
+        <div class="right">
+            <div class="authorization-back">
+                <img class="instalogo" src="Instagram_logo.svg.png" alt="">
+                <form action="" class="authorization-form">
+                    <input type="text" class="user-login" placeholder="Телефон, имя пользователя или эл.адрес">
+                    <input type="password" class="user-password" placeholder="Пароль">
+                    <button class="login-into">Войти</button>
+                    <div class="separator">
+                        <div class="sep"></div>
+                        <div class="word">ИЛИ</div>
+                        <div class="sep"></div>
+                    </div>
+                    <a class="login-with-facebook" href="">
+                        <img src="facebook.png" alt="">
+                        <span>Войти через Facebook</span>
+                    </a>
+                    <a class="forgot-password" href="#">Забыли пароль?</a>
+                </form>
+            </div>
+            <div class="without-acc">
+                <span>У вас еще нет аккаунта?</span>
+                <a href="#">Зарегистрироваться</a>
+            </div>
+            <div class="download-app">
+                <span>Установите приложение.</span>
+                <div class="links-to-down">
+                    <img class="playstore" src="playstore.png" alt="">
+                    <img src="microsoftlogo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer class="bottom">
+        <ul class="links">
+            <li><a href="#">Meta</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Конфидециальность</a></li>
+            <li><a href="#">Условия</a></li>
+            <li><a href="#">Популярные аккаунты</a></li>
+            <li><a href="#">Места</a></li>
+            <li><a href="#">Instagram Lite</a></li>
+            <li><a href="#">Загрузка контактов и лица, не являющиеся пользователями</a></li>
+        </ul>
+        <ul class="last_links">
+            <li class="lang">
+                <span>Русский</span>
+                <i class='bx bx-chevron-down'></i>
+            </li>
+            <li>© 2023 Instagram from Meta</li>
+        </ul>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
