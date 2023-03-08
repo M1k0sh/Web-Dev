@@ -1,0 +1,8 @@
+#photos {
+    display: block;
+}
+
+.photo {
+    margin: 2px;
+    display: inline-block;
+}

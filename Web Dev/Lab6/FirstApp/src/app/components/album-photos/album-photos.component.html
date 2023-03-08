@@ -1,0 +1,8 @@
+<div *ngIf="photos">
+    <button (click)="goBack()">Return back</button>
+    <div id="photos">
+        <div *ngFor="let photo of photos" class="photo">
+            <img [src]="photo.url" width="200px" alt="image">
+        </div>
+    </div>
+</div>
